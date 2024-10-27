@@ -1,0 +1,9 @@
+#!/bin/bash
+
+rm -f ~/.tmux.conf
+rm -f ~/.gitconfig
+rm -rf ~/.config/nvim
+
+ln -sf ~/dotfiles/tmux.conf $HOME/.tmux.conf
+ln -sf ~/dotfiles/gitconfig $HOME/.gitconfig
+ln -nsf ~/dotfiles/nvim ~/.config/nvim

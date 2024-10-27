@@ -1,0 +1,17 @@
+[user]
+	name = Petar Lazarov
+	email = petar.a.lazarov@gmail.com
+[core]
+	editor = nvim
+[web]
+    browser = firefox
+[alias]
+    a = add --all
+    c = commit -vv
+    s = status
+    ps = push
+    psom = push origin master
+[pull]
+	rebase = false
+[include]
+    path=~/.gitconfig_local
